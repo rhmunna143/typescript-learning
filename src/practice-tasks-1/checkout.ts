@@ -1,4 +1,4 @@
-import printl = require("./print");
+import printl = require("../print");
 
 type CartItem = {
   name: string;

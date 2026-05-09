@@ -8,7 +8,7 @@ type Draft<OBJ> = {
   readonly [KEY in keyof OBJ]?: OBJ[KEY];
 };
 
-let myDraft: MyDocument = {
+let myDraft: Draft<MyDocument> = {
   title: "Russel viper",
   author: "Mr. Anaconda",
   content: "Adventurous Novel",
